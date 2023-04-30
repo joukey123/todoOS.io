@@ -1,0 +1,170 @@
+.hidden {
+    display: none;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: -1;
+    opacity: 80%;
+}
+
+.basicfont {
+    font-family: 'IBM Plex Sans KR', sans-serif;
+}
+
+.headerfont {
+    margin-top: 15px;
+    font-size: 12px;
+    width: auto;
+    height: 30px;
+}
+
+.Btn {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 0;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.Btn:hover {
+    background-color: black;
+    color: white;
+}
+
+.loingform {
+    width: 300px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    font-weight: bolder;
+}
+
+.title{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 70px;
+    font-weight: bolder;
+}
+.subtitle{
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-weight: lighter;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+
+.input{
+    margin-top: 15px;
+    margin-left: 20px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+    background-color: rgb(250, 250, 250);
+    width: 163px;
+    height: 30px;
+    font-size: 12px;
+    color: grey;
+}
+
+.loginBtn {
+    margin-left: 20px;
+    border-radius: 5px;
+    border: 0;
+    width: 163px;
+    height: 30px;
+    background-color: rgb(238, 206, 206);
+    color: rgb(205, 86, 96);
+    font-size: 12px;
+}
+.icon {
+    margin-left: 720px;
+    margin-top: 100px;
+}
+
+.foldename {
+    font-size: 12px;
+}
+.folderBtn {
+    border: 0;
+    background-color: rgba(0, 0, 0, 0);  
+}
+
+.todoListBox{
+    position: absolute;
+    top: 20%;
+    left:40%;
+    font-weight: bolder;
+}
+
+.todoinput{
+    margin-top: 15px;
+    margin-left: -250px;
+    border: 0;
+    border-radius: 5px;
+    outline: 1;
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    color: grey;
+}
+.todoBtn {
+    margin-left: 0px;
+    border-radius: 5px;
+    border: 0;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(81, 86, 233);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.listInputBox{
+    margin-top: 10px;
+    margin-left: -250px;
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    background-color: rgb(232, 232, 232);
+    width: 300px;
+    height: 30px;
+    font-size: 12px;
+    color: grey;
+}
+.closeBtn{
+    margin-left: 0px;
+    border-radius: 5px;
+    border: 0;
+    width: 50px;
+    height: 30px;
+    background-color: rgb(233, 81, 106);
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+}
+.deleteBtn{
+    margin-left: 5px;
+    border-radius: 5px;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(164, 164, 164);
+    color: rgb(25, 25, 25);
+    font-size: 12px;
+}
+.todoBtn:hover{
+    background-color: rgb(39, 41, 119);
+}
+.closeBtn:hover{
+    background-color: rgb(146, 47, 64);
+}
+.deleteBtn:hover{
+    background-color: rgb(46, 46, 46);
+    color: rgb(255, 255, 255);
+}
