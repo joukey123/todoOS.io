@@ -27,7 +27,7 @@ function Onweather(position) {
 }
 
 function OnweatherError () {
-    alert("can't")
+    alert("I can't find the location");
 }
 
 navigator.geolocation.getCurrentPosition(Onweather, OnweatherError);
