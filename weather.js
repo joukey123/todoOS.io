@@ -30,4 +30,6 @@ function OnweatherError () {
     alert("I can't find the location");
 }
 
-navigator.geolocation.getCurrentPosition(Onweather, OnweatherError);
+const checkID2 = localStorage.getItem("userID")
+if(checkID2===null) {
+} else {navigator.geolocation.getCurrentPosition(Onweather, OnweatherError);}
