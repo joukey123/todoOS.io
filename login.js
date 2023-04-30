@@ -9,7 +9,6 @@ const logoutBtn = document.querySelector("#logoutBtn");
 
 
 function login(event) {
-    event.preventDefault();
     const userID = loginBox.value;
     localStorage.setItem("userID", userID)
 }
